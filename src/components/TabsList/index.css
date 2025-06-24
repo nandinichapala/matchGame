@@ -1,0 +1,23 @@
+.tab-item-container {
+  width: 30%;
+}
+.tab-btn {
+  font-size: 28px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.tab-btn-border {
+  border-bottom: 2px solid #fec653;
+  color: #fec653;
+}
+@media (max-width: 767px) {
+  .tab-item-container {
+  width: 50%;
+}
+  .tab-btn {
+  font-size: 15px;
+}
+}
